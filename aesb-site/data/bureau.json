@@ -1,0 +1,26 @@
+[
+  {
+    "nom": "Prénom NOM",
+    "role": "Président",
+    "description": "Une phrase de présentation (exemple à remplacer).",
+    "photo": ""
+  },
+  {
+    "nom": "Prénom NOM",
+    "role": "Vice-président",
+    "description": "Une phrase de présentation (exemple à remplacer).",
+    "photo": ""
+  },
+  {
+    "nom": "Prénom NOM",
+    "role": "Secrétaire",
+    "description": "Une phrase de présentation (exemple à remplacer).",
+    "photo": ""
+  },
+  {
+    "nom": "Prénom NOM",
+    "role": "Trésorier",
+    "description": "Une phrase de présentation (exemple à remplacer).",
+    "photo": ""
+  }
+]

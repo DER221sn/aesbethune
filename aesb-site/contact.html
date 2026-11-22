@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact – AESB</title>
+  <meta name="description" content="Contactez l'Amicale des Étudiants Sénégalais de Béthune.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:wght@700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <a class="logo" href="index.html">AESB</a>
+    <button class="burger" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="bureau.html">Bureau</a>
+      <a href="activites.html">Activités</a>
+      <a href="evenements.html">Événements</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn-gold" href="adhesion.html">Adhérer</a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="section">
+      <h1 class="page-title">Contact</h1>
+      <p class="lead">Une question, une idée, un partenariat ? Écrivez-nous, nous répondons dès que possible.</p>
+
+      <!-- Remplacez VOTRE_ID par l'identifiant donné par Formspree (ex : xyzabcde) -->
+      <form id="contact-form" class="form" action="https://formspree.io/f/VOTRE_ID" method="POST">
+        <label for="nom">Nom et prénom</label>
+        <input id="nom" name="nom" type="text" autocomplete="name" required maxlength="100">
+
+        <label for="email">Adresse e-mail</label>
+        <input id="email" name="email" type="email" autocomplete="email" required maxlength="150">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required maxlength="2000"></textarea>
+
+        <!-- Piège anti-robots : champ caché que seuls les robots remplissent -->
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="piege" aria-hidden="true">
+
+        <label class="check">
+          <input type="checkbox" name="consentement" required>
+          <span>J'accepte que l'AESB utilise ces informations pour me répondre. <a href="confidentialite.html">En savoir plus</a></span>
+        </label>
+
+        <button class="btn btn-vert" type="submit">Envoyer le message</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <!-- Réseaux sociaux : à décommenter quand les comptes existent
+      <h2 class="space-top">Suivez-nous</h2>
+      <div class="footer-links social">
+        <a href="LIEN_INSTAGRAM" rel="noopener">Instagram</a>
+        <a href="LIEN_FACEBOOK" rel="noopener">Facebook</a>
+      </div>
+      -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>AESB</strong><p>Amicale des Étudiants Sénégalais de Béthune, depuis 2024</p></div>
+    <div class="footer-links">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
