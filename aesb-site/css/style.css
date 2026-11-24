@@ -139,3 +139,73 @@ img { max-width: 100%; display: block; }
 .member h2 { font-size: 1.25rem; margin: 0; }
 .member-role { display: inline-block; margin: .5rem 0 .75rem; padding: .2rem .9rem; border-radius: 999px; background: var(--or); color: var(--vert); font-weight: 700; font-size: .9rem; }
 .member p { margin: 0; color: var(--gris); }
+
+
+
+/* ===== Page adhésion (version améliorée) ===== */
+.anchor { scroll-margin-top: 1rem; }
+.big { font-size: clamp(1.8rem, 5vw, 2.5rem); }
+.intro-adhesion .lead { max-width: 65ch; }
+
+.choices { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.choice { display: block; padding: 1.75rem; border-radius: 24px; text-decoration: none; color: var(--texte); background: var(--blanc); transition: transform .25s; }
+.choice:hover { transform: translateY(-4px); }
+.choice h2 { font-size: 1.4rem; }
+.choice-vert { border-top: 8px solid var(--vert); }
+.choice-or { border-top: 8px solid var(--or); }
+.choice-go { display: inline-block; margin-top: .5rem; font-weight: 700; color: var(--vert); border-bottom: 3px solid var(--or); }
+
+.benefits { list-style: none; padding: 0; margin: 0; display: grid; gap: .75rem; }
+.benefits li { background: var(--blanc); border-radius: 16px; padding: 1rem 1.25rem; border-left: 6px solid var(--or); }
+.benefits strong { display: block; color: var(--vert); font-family: var(--titres); }
+
+.dark { background: var(--vert); color: var(--fond); }
+.dark h2, .dark h3, .dark h4 { color: var(--fond); }
+.dark .big { color: var(--or); }
+.dark a { color: var(--or); }
+.chips { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .75rem; }
+.chips li { padding: .4rem 1.1rem; border: 2px solid var(--or); border-radius: 999px; font-weight: 500; }
+.support { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.support-item { background: var(--vert-clair); border-radius: 16px; padding: 1.25rem; }
+.support-item h4 { margin: 0 0 .25rem; font-family: var(--titres); font-size: 1.05rem; }
+.support-item p { margin: 0; }
+.don { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.don p { margin: 0; max-width: 46ch; }
+.form-light { background: var(--blanc); color: var(--texte); border-radius: 24px; padding: 1.5rem; max-width: 640px; }
+.form-light a { color: var(--vert); }
+.form select { width: 100%; padding: .75rem 1rem; border: 2px solid #cbd2d9; border-radius: 12px; font: inherit; background: var(--blanc); }
+.form select:focus { border-color: var(--vert); outline: none; box-shadow: 0 0 0 3px var(--or); }
+
+.quote { background: var(--or); padding: 3rem 1.25rem; text-align: center; }
+.quote p { margin: 0 auto; max-width: 28ch; font-family: var(--titres); font-weight: 800; font-size: clamp(1.5rem, 4.5vw, 2.4rem); line-height: 1.25; color: var(--vert); }
+
+
+/* ===== Page à propos ===== */
+.since { margin: 0 0 .5rem; font-weight: 700; color: var(--vert); }
+.since::before { content: ""; display: inline-block; width: 28px; height: 4px; margin-right: .6rem; vertical-align: middle; background: var(--or); border-radius: 2px; }
+.lead-big { font-size: 1.2rem; max-width: 62ch; }
+.mission { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.values { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+
+/* ===== Pages légales ===== */
+.legal { max-width: 800px; }
+.legal h2 { font-size: 1.35rem; margin-top: 2rem; }
+.legal p, .legal li { max-width: 70ch; }
+.maj { color: var(--gris); font-size: .9rem; margin: -.5rem 0 1.5rem; }
+.todo { background: #fff3c4; color: var(--texte); padding: 0 .25rem; border-radius: 4px; } /* à remplir puis retirer */
+.table-wrap { overflow-x: auto; }
+.legal table { border-collapse: collapse; width: 100%; min-width: 560px; background: var(--blanc); border-radius: 12px; }
+.legal th, .legal td { text-align: left; vertical-align: top; padding: .75rem 1rem; border-bottom: 1px solid #e4e7eb; font-size: .95rem; }
+.legal th { background: var(--vert); color: var(--fond); font-family: var(--titres); }
+
+
+/* ===== Polices hébergées localement (aucune requête vers Google) ===== */
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400; font-display: swap; src: url("../fonts/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 500; font-display: swap; src: url("../fonts/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 700; font-display: swap; src: url("../fonts/plus-jakarta-sans-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 800; font-display: swap; src: url("../fonts/plus-jakarta-sans-latin-800-normal.woff2") format("woff2"); }
+
+
+/* ===== Page activités ===== */
+.card-title { font-size: 1.2rem; margin: 0 0 .5rem; }
