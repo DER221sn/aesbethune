@@ -27,7 +27,7 @@
     "nom": "Massamba DER",
     "role": "Trésorier",
     "description": "Etudiant en Reseaux Informatique et Telecommunications, IUT DE BETHUNE.",
-    "photo": "\\images\\mass.jpeg"
+    "photo": "/images/mass.jpeg"
   },
   {
     "nom": "Fadel NDIAYE",
