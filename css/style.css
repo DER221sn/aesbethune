@@ -209,3 +209,9 @@ img { max-width: 100%; display: block; }
 
 /* ===== Page activités ===== */
 .card-title { font-size: 1.2rem; margin: 0 0 .5rem; }
+
+
+/* ===== Logo dans l'en-tête ===== */
+.logo { display: inline-flex; align-items: center; line-height: 0; }
+.logo img { width: 52px; height: 52px; display: block; }
+
