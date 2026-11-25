@@ -18,16 +18,16 @@
     "photo": ""
   },
   {
-    "nom": "Prénom NOM",
-    "role": "Abdoul Aziz GUEYE",
+    "nom": "Abdoul Aziz GUEYE",
+    "role": "Adjoint au secrétaire",
     "description": "Une phrase de présentation (exemple à remplacer).",
     "photo": ""
   },
   {
-    "nom": "Prénom NOM",
-    "role": "Massamba DER",
+    "nom": "Massamba DER",
+    "role": "Trésorier",
     "description": "Une phrase de présentation (exemple à remplacer).",
-    "photo": ""
+    "photo": "\\images\\mass.jpeg"
   },
   {
     "nom": "Fadel NDIAYE",
