@@ -2,7 +2,7 @@
   {
     "nom": "Pape Abdoulaye DIAW",
     "role": "Président",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en Management Avancé, Innovant et Durable de la Supply chain au CNAM de NANTES.",
     "photo": ""
   },
   {
@@ -14,31 +14,31 @@
   {
     "nom": "Abdou GOUMBALE",
     "role": "Secrétaire",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en 3èmé année Génie mécanique productique-innovation pour l'industrie, IUT DE BETHUNE.",
     "photo": ""
   },
   {
     "nom": "Abdoul Aziz GUEYE",
     "role": "Adjoint au secrétaire",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en License 2 SPI à L'universite d'artois de Béthune.",
     "photo": ""
   },
   {
     "nom": "Massamba DER",
     "role": "Trésorier",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en Reseaux Informatique et Telecommunications, IUT DE BETHUNE.",
     "photo": "\\images\\mass.jpeg"
   },
   {
     "nom": "Fadel NDIAYE",
     "role": "Secretaire Tresorier",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en License 2 SPI à L'universite d'artois de Béthune.",
     "photo": ""
   },
    {
     "nom": "Serigne Fadilou GUEYE",
     "role": "Responsable communication",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en 3èmé année Génie mécanique productique-innovation pour l'industrie, IUT DE BETHUNE.",
     "photo": ""
   },
   {
@@ -50,13 +50,13 @@
   {
     "nom": "Khadidiatou NDIAYE",
     "role": "Responsable d'événements",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiante en Master 2, Genie civil.",
     "photo": ""
   },
   {
     "nom": "Birane SYLL",
     "role": "Responsable logistique",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en Genie Mechanique et Productique, IUT DE BETHUNE.",
     "photo": ""
   },
   {
@@ -68,13 +68,19 @@
   {
     "nom": "Seydou DIOP",
     "role": "Responsable aux affaires culturelles et sportives",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en Genie Electrique et Informatique Industrielle, IUT DE BETHUNE.",
     "photo": ""
   },
   {
     "nom": "Mame Mor DIAW",
     "role": "Responsable des relations extérieures",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant à l'ecole d'ingénieurs D'artois en Génie Electrique.",
+    "photo": ""
+  },
+  {
+    "nom": "Papa Sadio DIALLO",
+    "role": "Conseiller",
+    "description": "Doctorant en Genie Electrique.",
     "photo": ""
   },
   {
@@ -84,9 +90,9 @@
     "photo": ""
   },
    {
-    "nom": "Ibrahima KHalil",
+    "nom": "Ibrahima NDIAYE",
     "role": "Responsable Pédagogie",
-    "description": "Une phrase de présentation (exemple à remplacer).",
+    "description": "Etudiant en Electronique Energie Electrique ET Automatisme, Master 1.",
     "photo": ""
   }
 ]

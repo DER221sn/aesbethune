@@ -30,15 +30,32 @@
       <h2 class="space-top">Passés</h2>
       <div id="events-past" class="cards" data-mode="past"><p>Chargement…</p></div>
     </section>
+
+    <section id="galerie" class="section anchor">
+      <h2 class="big">Galerie photos</h2>
+      <div id="filters" class="filters" role="group" aria-label="Filtrer par événement"></div>
+      <div id="gallery" class="gallery"><p>Chargement…</p></div>
+    </section>
+
+    <dialog id="lightbox" class="lightbox" aria-label="Visionneuse de photos">
+      <figure>
+        <img id="lb-img" alt="">
+        <figcaption id="lb-cap"></figcaption>
+      </figure>
+      <button class="lb-btn lb-close" type="button" aria-label="Fermer">&times;</button>
+      <button class="lb-btn lb-prev" type="button" aria-label="Photo précédente">&lsaquo;</button>
+      <button class="lb-btn lb-next" type="button" aria-label="Photo suivante">&rsaquo;</button>
+    </dialog>
   </main>
 
   <footer class="footer">
-    <div><strong>AESB</strong><p>Amicale des Étudiants Sénégalais de Béthune, depuis Octobre 2026</p></div>
+    <div><strong>AESB</strong><p>Amicale des Étudiants Sénégalais de Béthune, depuis 2024</p></div>
     <div class="footer-links">
       <a href="mentions-legales.html">Mentions légales</a>
       <a href="confidentialite.html">Confidentialité</a>
     </div>
   </footer>
   <script src="js/main.js"></script>
+  <script src="js/galerie.js"></script>
 </body>
 </html>
