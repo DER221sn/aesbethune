@@ -3,7 +3,7 @@
     "nom": "Pape Abdoulaye DIAW",
     "role": "Président",
     "description": "Etudiant en Management Avancé, Innovant et Durable de la Supply chain au CNAM de NANTES.",
-    "photo": ""
+    "photo": "images/bureau/pape Abdoulaye.png"
   },
   {
     "nom": "Mouhamadou Fadillou GAYE",
@@ -20,19 +20,19 @@
   {
     "nom": "Abdoul Aziz GUEYE",
     "role": "Adjoint au secrétaire",
-    "description": "Etudiant en License 2 SPI à L'universite d'artois de Béthune.",
+    "description": "Etudiant en Licence 2 SPI à L'universite d'artois de Béthune.",
     "photo": ""
   },
   {
     "nom": "Massamba DER",
     "role": "Trésorier",
-    "description": "Etudiant en Reseaux Informatique et Telecommunications, IUT DE BETHUNE.",
+    "description": "Etudiant en Réseaux Informatique et Télécommunications, IUT DE BETHUNE.",
     "photo": "images/bureau/massamba-der.jpeg"
   },
   {
     "nom": "Fadel NDIAYE",
     "role": "Secretaire Tresorier",
-    "description": "Etudiant en License 2 SPI à L'universite d'artois de Béthune.",
+    "description": "Etudiant en Licence 2 SPI à L'universite d'artois de Béthune.",
     "photo": ""
   },
    {
@@ -56,14 +56,14 @@
   {
     "nom": "Birane SYLL",
     "role": "Responsable logistique",
-    "description": "Etudiant en Genie Mechanique et Productique, IUT DE BETHUNE.",
+    "description": "Etudiant en Génie mécanique et Productique, IUT DE BETHUNE.",
     "photo": ""
   },
   {
     "nom": "Abdoulaye TOURE",
     "role": "Responsable aux affaires sociales",
-    "description": "Une phrase de présentation (exemple à remplacer).",
-    "photo": ""
+    "description": "Etudiant en Licence Professionnelle Maintenance des Systèmes Industriels, de production et d'énergie-Maintenance Industrielle en Génie Electrique.",
+    "photo": "images/bureau/abdoulaye (1).jpeg"
   },
   {
     "nom": "Seydou DIOP",
@@ -74,14 +74,14 @@
   {
     "nom": "Mame Mor DIAW",
     "role": "Responsable des relations extérieures",
-    "description": "Etudiant à l'ecole d'ingénieurs D'artois en Génie Electrique.",
+    "description": "Etudiant à l'école d'ingénieurs D'artois en Génie Electrique.",
     "photo": ""
   },
   {
     "nom": "Papa Sadio DIALLO",
     "role": "Conseiller",
-    "description": "Doctorant en Genie Electrique.",
-    "photo": ""
+    "description": "Doctorant en Génie Electrique, Ecole D'ingenieurs D'artois.",
+    "photo": "images/bureau/sadio.jpeg"
   },
   {
     "nom": "Serigne Mamadou Diene",
@@ -93,7 +93,7 @@
     "nom": "Ibrahima NDIAYE",
     "role": "Responsable Pédagogie",
     "description": "Etudiant en Electronique Energie Electrique ET Automatisme, Master 1.",
-    "photo": ""
+    "photo": "images/bureau/khalil.jpeg"
   }
 ]
 
