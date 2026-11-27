@@ -236,3 +236,18 @@ img { max-width: 100%; display: block; }
 .lb-close { top: 1rem; right: 1rem; }
 .lb-prev { left: .75rem; top: 50%; transform: translateY(-50%); }
 .lb-next { right: .75rem; top: 50%; transform: translateY(-50%); }
+
+/* ===== En-tête fixe ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--fond);
+  box-shadow: 0 1px 0 rgba(20, 83, 45, .12);
+  max-height: 100vh;      /* si le menu mobile est ouvert, il reste accessible */
+  overflow-y: auto;
+}
+
+/* Les liens internes (#rejoindre, #soutenir, #galerie) ne se cachent plus sous l'en-tête */
+html { scroll-padding-top: 5.5rem; }
+.anchor { scroll-margin-top: 0; }
